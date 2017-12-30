@@ -1,0 +1,26 @@
+this are some of the html tags i learnt this week.
+
+1.	Headings and sub-headings, <h1> to <h6>tags, are used
+to enlarge text.
+
+2.	<p>, <span> and <div> tags specify text or blocks.
+
+3.	The <em> and <strong> tags are used to emphasize text.
+
+4.	Line breaks are created with the <br> tag.
+
+5.	Ordered lists (<ol>) are numbered and unordered lists
+(<ul>) are bulleted.
+
+6.	Images (<img>) and videos (<video>) can be added by
+linking to an existing source.
+
+7.	Anchor tags (<a>) are used to link to internal pages,
+external pages or content on the same page.
+
+8.	You can create sections on a webpage and jump to them
+using <a> tags and addings ids to the elements you wish to
+jump to.
+
+9.	The nav element contains links to internal pages or
+content.
