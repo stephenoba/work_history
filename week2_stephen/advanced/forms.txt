@@ -1,0 +1,22 @@
+When creating an HTML form this are the basic tags and attributes.
+
+1. <form> which defines the form
+
+2. <input> which is the most important tag when creating forms and has
+various forms like;
+<input type="text">
+<input type="password">
+<input type="checkbox">
+<input type="radio">
+<input type="submit">
+
+3. <textarea> which is basically for large multi-line text box.
+The anticipated number of rows and columns can be defined with
+the row and cols attribute.
+
+The <select> tag works with the <option> tag to create drop down
+select boxes
+
+ The name attribute is to be added to all the tags in the forms
+ in order for it not to be ignored when hooked up to a
+ form-handling script.

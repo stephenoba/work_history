@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>my form</title>
+</head>
+<body>
+  <h1>please complete</h1>
+  <form action="obastepheno@gmail.com" method="post">
+
+    <table>
+      <tr>
+        <td>Name:</td>
+        <td>middle name:</td>
+        <td>Surname:</td>
+      </tr>
+      <tr>
+        <td><input type="text" name="name" value="Your name"></td>
+        <td><input type="text" name="middle name" value="Your middle name"></td>
+        <td><input type="text" name="surname" value="Your surname"></td>
+      </tr>
+    </table>
+
+    <p>Species:</p>
+    <p><input name="species"></p>
+    <!-- remember: 'type="text"' isn't actually necessary -->
+
+    <p>Comments: </p>
+    <p><textarea name="comments" rows="5" cols="20">Your comments</textarea></p>
+
+    <p>Are you:</p>
+    <p><input type="radio" name="areyou" value="male"> Male</p>
+    <p><input type="radio" name="areyou" value="female"> Female</p>
+    <p><input type="radio" name="areyou" value="hermaphrodite"> An hermaphrodite</p>
+    <p><input type="radio" name="areyou" value="asexual"> Asexual</p>
+
+    <p><input type="submit" value="Wait, ok go"></p>
+  </form>
+</body>
+</html>
