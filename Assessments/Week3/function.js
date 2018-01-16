@@ -1,9 +1,15 @@
 /**
   In this assessment, you will be creating new Javascript functions.
   Make sure to read the directions to build the functions carefully.
-  You should use the below pattern to below to write your functions:
+  You should use the below patterns to write your functions:
   ```
   function {{name_of_function}} {
+    // Write your code here
+  }
+
+  OR
+
+  const {{name_of_function}} = () => {
     // Write your code here
   }
 
