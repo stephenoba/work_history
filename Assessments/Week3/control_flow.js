@@ -11,7 +11,7 @@ function isEven(num) {
   // write you code here
 }
 
-// 2. The function isNaN(num) will return true if num is not a number
+// 2. The function Number.isNaN(num) will return true if num is not a number
 // or false if it is.
 // Use isNan to extend your `isEven` function by including an `else if` statement
 // that checks whether a num is a number and
