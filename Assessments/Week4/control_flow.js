@@ -8,7 +8,7 @@
 // and `false` if it is not
 
 function isEven(num) {
-  if (num%2 == 0) {
+  if (num%2 === 0) {
     return true;
   } else {
     return false;
@@ -22,7 +22,7 @@ function isEven(num) {
 // console.log => "That is not a number", if it is not a number
 
 function isEvenV2(num) {
-  if (num%2 == 0) {
+  if (num%2 === 0) {
     console.log('True')
   } else if (Number.isNaN(num)) {
     console.log('That is not a number')
@@ -63,7 +63,7 @@ function getLunchOrder(lunchOrder) {
 // to "tired" or "sleepy" and `false` if it is not
 
 function shouldINap(mood) {
-  if (mood == 'tired' || mood == 'sleepy') {
+  if (mood === 'tired' || mood === 'sleepy') {
     return true;
   } else {
     return false;
@@ -75,9 +75,9 @@ function shouldINap(mood) {
 // then console.log => "Go use that energy and learn more javascript ;)"
 
 function shouldINapV2(mood) {
-  if (mood == 'tired' || mood == 'sleepy') {
+  if (mood === 'tired' || mood === 'sleepy') {
     return true;
-  } else if (mood == 'energetic') {
+  } else if (mood === 'energetic') {
     console.log('Go use that energy and learn more JavaScript.');
   } else {
     return false;

@@ -56,12 +56,12 @@ const toString = (num) => {
 
 // Answer #2
 const decrement = (i) => {
-  return i = --i;
+  return --i;
 }
 
 // Answer #3
-const decrement = (i) => {
-  return i = ++i;
+const increment = (i) => {
+  return ++i;
 }
 
 // Answer #4
@@ -76,17 +76,17 @@ const square = (num) => {
 
 // Answer #6
 const isOdd = (num) => {
-  return Math.abs(n % 2) == 1;
+  return Math.abs(n % 2) === 1;
 }
 
 // Answer #7
-const twoStrings = (str1, str2) => {
+const cocatTwoStrings = (str1, str2) => {
   return str1.concat(str2);
 }
 
 // Answer #8
 const areaOfCircle = (raduis) => {
-  π = 3.14;
-  radiusSquare = radius * radius;
-  return π * radiusSquare;
+  const pie = 3.14;
+  let radiusSquare = radius * radius;
+  return pie * radiusSquare;
 }
