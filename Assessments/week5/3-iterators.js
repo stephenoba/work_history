@@ -25,12 +25,20 @@ const week = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 
 
 // 1. Using the `forEach` function complete the instructions below:
 // Console.log every day in the week array
+week.forEach(function(weekItems) {
+  console.log('Today is ' + weekItems)
+});
 
 // 2. Using the `some` function complete the instructions below:
 // Check the week array for days that are longer than six letters
 
-const hasDaysLongerThanSixLetters = /** erase this then write your coode here*/
+const hasDaysLongerThanSixLetters = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday']
 
+function checkDaysLongerThanSixLetters(hasDaysLongerThanSixLetters) {
+  return hasDaysLongerThanSixLetters > 6;
+}
+
+hasDaysLongerThanSixLetters.some(checkDaysLongerThanSixLetters)
 // 3. Using the `filter` function complete the instructions below:
 // Filter the weeks array for all the days that are longer than six letters
 
