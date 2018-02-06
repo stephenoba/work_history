@@ -19,24 +19,21 @@
 // 1. write a function that takes an array as its first parameter and returns
 // the first item in the array
 
-let numbers = [32, 65, 51, 23, 7];
-
-function firstNumber(numbers) {
-  return numbers
+function firstNumber() {
+   return numbers.shift();
 }
+firstNumber([32, 65, 51, 23, 7]);
 
-console.log(firstNumber(numbers[0]));
+
 
 // 2. write a function that takes an array as its first parameter and returns
 // the last item in the array
 
-let numbers = [32, 65, 51, 23, 7];
-
-function firstNumber(numbers) {
-  return numbers
+function lastNumber(numbers) {
+  return numbers.pop()
 };
 
-console.log(firstNumber(numbers[4]));
+lastNumber([32, 65, 51, 23, 7]);
 
 // 3. write a function that takes an array as its first parameter and a value as
 // its second parameter. The function returns a new array with the value added to
@@ -45,7 +42,7 @@ console.log(firstNumber(numbers[4]));
 let numbers = [32, 65, 51, 23, 7];
 
 function newArray(numbers, newValue) {
-  number = numbers.unshift(newValue)
+  numbers.unshift(newValue)
   return numbers;
 }
 
@@ -57,13 +54,12 @@ console.log(newArray(numbers, 59));
 
 let numbers = [32, 65, 51, 23, 7];
 
-function newArray(numbers, newValue) {
-  numbers = numbers.push(newValue)
+function newNumberList(numbers, newValue) {
+  numbers.push(newValue)
   return numbers;
 }
 
-console.log(newArray(numbers, 59));
-console.log(numbers);
+console.log(newNumberList(numbers, 59));
 
 // 5. write a function that takes an array as its first parameter, a value as
 // its second parameter and an index as the third parameter. The function returns
@@ -71,10 +67,9 @@ console.log(numbers);
 
 let numbers = [32, 65, 51, 23, 7];
 
-function newArray(numbers, index, newValue) {
-  numbers = numbers.splice(index, 0, newValue)
+function newNumberList(numbers, newValue, index) {
+  numbers.splice(index, 0, newValue)
   return numbers;
 }
 
-console.log(newArray(numbers, 2, 35));
-console.log(numbers)
+console.log(newNumberList(numbers, 35, 2));
