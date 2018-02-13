@@ -1,0 +1,13 @@
+In this assessment, you will use will be tested on your knowledge of javascript
+concepts from Section 3 of the video lectures. Answer them in your own world.
+Fill free to provide examples to help illustrate your train of thought.
+
+1. Explain javascript types. List the different types
+
+2. What is a primitive type?
+
+3. What are operators and operands?
+
+4. What does it mean when an operands is coerced?
+
+5. What is the difference between '==' and '==='?

@@ -1,0 +1,19 @@
+In this assessment, you will use will be tested on your knowledge of javascript
+concepts from Section 2 of the video lectures. Answer them in your own world.
+Fill free to provide examples to help illustrate your train of thought.
+
+1. How does javascript syntax parser work?
+
+2. What is the execution context of a function?
+
+3. What is a Lexical Environment?
+
+4. Explain hoisting
+
+5. What is Scope?
+
+6. Javascript is single threaded. What does this mean?
+
+7. What is the difference between synchronous and asynchronous execution?
+
+8. What is a callback?

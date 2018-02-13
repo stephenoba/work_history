@@ -1,0 +1,7 @@
+In this assessment, you will use will be tested on your knowledge of javascript
+concepts from Section 4 of the video lectures. Answer them in your own world.
+Fill free to provide examples to help illustrate your train of thought.
+
+1. How do you access methods or properties on an object?
+
+2.
