@@ -1,5 +1,5 @@
 /**
-  Its important that you keep practicing creating functions. Some here are more
+  Its important that you keep practicing creating functions. Here are some more
   that you will need to implement
 
   ```
