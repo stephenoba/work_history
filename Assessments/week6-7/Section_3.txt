@@ -3,13 +3,25 @@ concepts from Section 3 of the video lectures. Answer them in YOUR OWN WORDS.
 Fill free to provide examples to help illustrate your train of thought.
 
 1. Javascript is a dynamically typed language. What does this mean?
+it means that in JavaScript, variables can hold different types of values which the JavaScript figures out during execution.
 
 2. What is a primitive type? Explain each primitive type.
+A primitive type is a type of data that represents a single value. It is not an object, and has no methods.
+-Undefined: This implies a value hasn't been set to a variable. It is automatically set by the Javascript engine until the variable is set to a value.
+-Null: This also represents a lack of existence and clearly shows that a variable should have no value.
+-Boolean: This is a unique Javascript primitive type which can only take either of two values (ie) true or false
+-Number: This is a numeric type in Javascript. In JavaScript, it can be written with or without a decimal point. A number can also be +infinity, -infinity, and Nan(not a number).
+- String: Strings are used for storing texts and must be inside of either single or double quotes.
+-Symbol: A symbol is a unique and immutable primitive value and may be used as an object property.
 
 3. What are operators and operands?
+Operators are special functions or symbols which are used to manipulate and check operand values while operands are numerical, text and boolean values that a program can manipulate and use as logical guidelines for making decisions.
 
 4. In what order does operators get called?
+The order in which operators are called depends on its precedence and associativity.
 
 5. What does it mean when a value is coerced?
+It means converting a value from one type to another.
 
 6. What is the difference between '==' and '==='?
+== is an abstract equality comparison which performs a type conversion when comparing two things while === is a strict equality comparison which doesn't perform a type conversion when comparing two things.

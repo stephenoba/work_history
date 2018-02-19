@@ -3,32 +3,56 @@ concepts from Section 4 of the video lectures. Answer them in YOUR OWN WORDS.
 Fill free to provide examples to help illustrate your train of thought.
 
 1. What are the ways to access methods or properties on an object?
+Either with the use of dot(.) or bracket([]) notation.
 
 2. How do you initialize an Object literal?
+Using new Object() or Object.create()
 
 3. What is a Namespace? How does Javascript handle Namespacing?
+A namespace is simply a container for variables and
+functions, typically to keep variables and functions with the
+same name separately.
 
 4. What is a JSON? What are some of the Javascript functions used to parse and encode JSON?
+JSON stands for JavaScript Object Notation and is simply a minimal, readable format for
+structuring data.
+The functions used to parse and encode JSON are;
+- JSON.parse() and
+- JSON.stringify()
 
 5. What are first class functions?
+Functions which can be treated like any other variable.
 
 6. Explain the difference between a function statement and expression.
+A function expression returns a value, while function statement doesn't.
 
 7. What does it mean to be passed by value? What types are passed by value?
+Pass by value means making a copy in memory of the actual parameter's value
+that is passed in
 
 8. What does it mean to be passed by reference? What types are passed by reference?
+Passing by reference means sharing of memory space/location.
 
 9. What is the `this` variable?
+this is a JavaScript keyword whose value changes depending on how a
+function gets called.
 
 10. What is an array? How are they different in Javascript than in other languages?
+An array in Javascript is a way of making lists which can store any data type and
+number or orders them.
+Javascript starts counting from zero in the ordering of an array.
 
 11. What are function arguments? What is the keyword that Javascript gives you to
 access a function's arguments?
+Function arguments are the real values passed to (and received by) the function. They key word is arguments.
 
 12. What is an IIFE? How can they be useful?
-
-13. Explain closures. How can you use them to your advantage in Javascript?
+IIFE stands for Immediately-Invoked Function Expression.  Immediately-invoked function expressions can be used to
+avoid variable hoisting from within blocks.
 
 14. What is a callback function?
+A callback function is a function that is passed to another function  as a parameter, and  is called
+when the other Function is finished.
 
 15. What does call(), apply() and bind() help you control?
+They help control the 'this' value and the argument list of a called function.
