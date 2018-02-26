@@ -3,10 +3,13 @@ concepts from Section 4 of the video lectures. Answer them in YOUR OWN WORDS.
 Fill free to provide examples to help illustrate your train of thought.
 
 1. What are the ways to access methods or properties on an object?
-Either with the use of dot(.) or bracket([]) notation.
+You can access the properties and methods of an object by adding
+a period (.) and the name of the property or method to the end of an
+object's handle variable, As an alternative to dot notation, you
+can access object methods with standard function call notation
 
 2. How do you initialize an Object literal?
-Using new Object() or Object.create()
+Using new Object(), Object.create() or using the literal notation (initializer notation)
 
 3. What is a Namespace? How does Javascript handle Namespacing?
 A namespace is simply a container for variables and
@@ -24,7 +27,10 @@ The functions used to parse and encode JSON are;
 Functions which can be treated like any other variable.
 
 6. Explain the difference between a function statement and expression.
-A function expression returns a value, while function statement doesn't.
+declaration can be placed anywhere in a script including at the bottom
+of the script. The browser's JavaScript interpreter reads the script
+before running anything and commits the function to memory, while
+A function expression, is only created during runtime
 
 7. What does it mean to be passed by value? What types are passed by value?
 Pass by value means making a copy in memory of the actual parameter's value
